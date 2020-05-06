@@ -1,0 +1,48 @@
+.Top {
+    text-align: center;
+}
+
+#heading {
+    color: #7067ca;
+    text-decoration: underline #7067ca;
+    text-align: center;
+    font-size: 34px;
+}
+
+#theFirstDiv {
+    background-color: blueviolet;
+}
+
+#FirstDiv {
+    color:#ffffff;
+    background-color: #6b5acd;
+    width:800px;
+    margin:0 auto;
+}
+ 
+#image {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#submitHead {
+    font-size: 42px;
+    text-align: center;
+    color: #008000;
+}
+
+#confirm {
+    text-align: center;
+    color: #5a2276;
+    font-size: 32px;
+}
+
+#index {
+    text-align: center;
+    color: #5a2276;
+    font-size: 30px;
+}
+
+input[type="text"]{
+    width: 140px;
+}

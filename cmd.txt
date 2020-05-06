@@ -1,0 +1,6 @@
+echo "# Saylani-Web-Assignement" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Abdullahhashmi06/Saylani-Web-Assignement.git
+git push -u origin master

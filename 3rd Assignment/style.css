@@ -1,0 +1,271 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+
+.navbar{
+    background-color: #2151a2 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.socialMediaIcons:hover {
+    background-color: #215180;
+}
+
+.donationText{
+    color:white;
+    font-size:14px;
+    margin-top: 10px;
+}
+
+.donorButton {
+    margin-left: 0px;
+    font-size: 0.7em;
+    border: 1px solid #006618;
+    padding: 5px;
+}
+
+.donorBtns {
+    text-decoration: none !important;
+    color: #006618;
+}
+
+#homeButton {
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#aboutButton:hover {
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#servicesButton:hover {
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#futurePlansButton:hover {
+    color: white;
+    background-color: #007bff;
+    border-radius: 30px;
+    padding: 8px;
+}
+
+#theNews {
+    background-color: #316dc3;
+    margin-top: 10px;
+    color: white;
+}
+
+.newsDate {
+    color: #1dacc3 !important;
+}
+
+.statementDetails {
+    color: darkblue;
+
+}
+
+.statementDetails:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.introduction {
+    color: #316dc3;
+    font-family: 'Roboto Slab', serif !important;
+    font-weight: 700;
+}
+
+.duction {
+    color: #427900;
+}
+
+#theIntro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro {
+    background-color: #f7f8fa;
+    padding: 20px;
+}
+
+.multipleParagraphContainer {
+    text-align: justify;
+    color: #666666;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.dailyMissions {
+    background-color: #2755e9;
+    text-align: center;
+    padding: 50px;
+}
+
+.dailyMissionSection {
+    padding: 20px;
+}
+
+.tableCloth {
+    color: white;
+}
+
+.amountDiv {
+    text-align: left;
+}
+
+.monthly {
+    color: #00ff00;
+}
+
+#whatWeDo {
+    background-color: #f7f8fa;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.jobs {
+    padding-top: 30px;
+}
+
+.secondFaviconPicture {
+    padding-top: 10px;
+}
+
+#areDoing {
+    color: green;
+}
+
+#whatWeDoHeading {
+    color: #316dc3;
+}
+
+.onlineSadqah {
+    box-shadow: 10px 10px 10px 10px #ebecee;
+    padding: 25px;
+    text-align: center;
+    margin: 5px;
+    width:100%;
+    background-color: #fff;
+}
+
+.mainHeading {
+    color: #316dcd;
+    /* font-size: 20px; */
+}
+
+.headingForIcon {
+    color: #316dcd;
+}
+
+.upcomingProjectsContainerDiv {
+    padding: 20px;
+}
+
+.hepatitisDivider {
+    border: 1px solid #eeeeee;
+    width:100%;
+    background-color: #f7f8fa;
+    padding: 15px;
+    margin:5px;
+
+}
+
+.hepatitisDivider p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.literacy {
+    margin-bottom: 50px !important;
+}
+
+#imageGallery {
+    padding-top: 50px;
+}
+
+.imageGalleryHeading {
+    color: #316dcd;
+}
+
+.wordGallery {
+    color: green;
+}
+
+.mainImages {
+    padding-top: 50px;
+}
+
+.mainImagesMainDivider {
+    padding-bottom: 100px;
+}
+
+.footer {
+    background-color: #25272e;
+}
+
+.footerDivider {
+    padding-top: 50px;
+}
+
+.headOfficeAddress {
+    color: #bbbbbb;
+}
+
+.footerRow {
+    padding-bottom: 50px;
+}
+
+.fabFace {
+    color: white;
+}
+
+.faBtns {
+    background-color: #316dc3 !important;
+    border-radius: 50% !important;
+    height:40px;
+    width:40px;
+    text-align: center;
+}
+
+.copyrightSection {
+    background-color: #316dc3 !important;
+    color: white;
+}
+
+.copyrightParagraph {
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.tableCloth h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+
+.footerBullets{
+    list-style-type:none;
+}
+
+.footerBullets li{
+    
+}
+
+.liGreen{
+    color: #427900;
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Student Registration Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="Top">
+        <img src="images/Saylani-logo.png"/>
+        <h1 id="heading">Student Registration Form</h1>
+    </div>
+    <div id="FirstDiv">
+        <form action='submit.html' method="post">
+            <table width="100%" cellspacing='5' cellpadding='5' id='regForm'>
+                <tr>
+                    <td width='20%'><label for="fname">FIRST NAME:</label></td>
+                    <td><input type="text" name="fname" placeholder="Enter Your First Name " class="inputBox">
+                        (Max 30 characters a-z and A-Z)</td>
+                </tr>
+
+                <!--The above is the first name input box-->
+
+                <tr>
+                    <td width='20%'><label for="fname">LAST NAME:</label></td>
+                    <td><input type="text" name="fname" placeholder="Enter Your First Name " class="inputBox">
+                        (Max 30 characters a-z and A-Z)</td>
+                </tr>
+
+                <!--The above is the last name input box-->
+
+                <tr>
+                    <td width="20%">
+                        <label for="Days">DATE OF BIRTH:</label>
+                    </td>
+
+                    <!--The Above was the label for DOB. Below is the days option-->
+                    <td>
+                        <select name="Days" id="select">
+                            <option>Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+
+                        <!--The below is the month option-->
+                        <select name="Months" class="select">
+                            <option>Month</option>
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+
+                        <!--The below is the option to choose the year of your birth-->
+                        <select name="Years" class="select">
+                            <option>Year</option>
+                            <option value="1980">1980</option>
+                            <option value="1981">1981</option>
+                            <option value="1982">1982</option>
+                            <option value="1983">1983</option>
+                            <option value="1984">1984</option>
+                            <option value="1985">1985</option>
+                            <option value="1986">1986</option>
+                            <option value="1987">1987</option>
+                            <option value="1988">1988</option>
+                            <option value="1989">1989</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <!--the above tr tage ends the date of birth options-->
+
+                <tr>
+                    <td>
+                        <label for="fname">EMAIL ADDRESS:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter email address" class="inputBox">
+                    </td>
+                </tr>
+
+                <!--The above code was for the email id.-->
+
+                <tr>
+                    <td>
+                        <label for="fname">Gender:</label>
+                    </td>
+
+                    <!--Below is the coded for the radio button-->
+                    <td>
+                        <input type="radio" name="gender" value="m">
+                        <label for="Male">Male</label>
+                        <input type="radio" name="gender" value="f">
+                        <label for="Male">Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>ADDRESS:</p>
+                    </td>
+
+                    <!--This code(above and below) indicates the address space-->
+                    <td>
+                        <textarea name="address" cols="50" rows="3"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fname">CITY:</label>
+                    </td>
+
+                    <!--This below is the info of your address (country, city, state, etc,)-->
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter your City" class="inputBox">
+                        (Max 30 characters a-z and A-Z)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fname">PIN CODE:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter your City" class="inputBox">
+                        (6-Digit Number)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fname">STATE/PROVINCE:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter State/Province" class="inputBox">
+                        (6-Digit Number)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fname">COUNTRY:</label>
+                    </td>
+
+
+                    <td>
+                        <input type="text" name="fname" placeholder="Enter Country" class="inputBox">
+                        (6-Digit Number)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fname">HOBBIES:</label>
+                    </td>
+
+                    <!--This is a bit of your basic hobbies-->
+                    <td>
+                        <input type="radio" name="hobbies" value="d">
+                        <label for="drawing">Drawing</label>
+                        <input type="radio" name="hobbies" value="s">
+                        <label for="singing">Singing</label>
+                        <input type="radio" name="hobbies" value="da">
+                        <label for="dancing">Dancing</label>
+                        <input type="radio" name="hobbies" value="sk">
+                        <label for="sketching">Sketching</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="radio" name="hobbies" value="o">
+                        <label for="others">Others</label>
+                        <input type="text" name="username" size="15">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fname">QUALIFICATION:</label>
+                    </td>
+
+                    <!--The entire table below asks for your educational data-->
+
+                    <td>
+                        <table width="100%" cellspacing='2' cellpadding='2' id='regQualificationForm'>
+                            <tr>
+                                <td>S. No</td>
+                                <td>Examination</td>
+                                <td>Board</td>
+                                <td>Percentage</td>
+                                <td>Year of Passing</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Class X</td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Class XII</td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Graduation</td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Masters</td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                                <td><input type="text" name="username" size="15"></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td>(10 Characters MAX)</td>
+                                <td>(upto 2 Decimal)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Courses</td>
+                </tr>
+                <tr>
+                    <td>Applied For</td>
+                    <td>
+                        <input type="radio" name="course" value="b">
+                        <label for="bca">BCA</label>
+                        <input type="radio" name="course" value="b.co">
+                        <label for="bcom">B.COM</label>
+                        <input type="radio" name="hobbies" value="b.a">
+                        <label for="ba">B.A</label>
+                    </td>
+                </tr>
+
+                <!--Now comes the ending part, the SUBMIT BUTTON. Phewww-->
+
+                <tr>
+                    <td colspan="3">
+                        <div align="center">
+                            <button type='submit'>Submit</button>
+                            <button type='reset'>Reset</button>
+                    </td>
+    </div>
+    </tr>
+
+    </table>
+    </form>
+    </div>
+
+</body>
+
+</html>
