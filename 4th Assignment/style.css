@@ -1,0 +1,241 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#carouselIndicators {
+    /*background: #314755; 
+    background: -webkit-linear-gradient(to right, #26a0da, #314755); 
+    background: linear-gradient(to right, #26a0da, #314755); */
+    background-image: url(../images/carousel-bg.jpg);
+    background-size: cover;
+}
+
+.btn-buy-now
+{
+    background-color: lightskyblue !important;
+}
+
+.btn-buy-now:hover
+{
+    background-color:#2c6f90 !important;
+    transition: ease 1s;
+}
+
+.carouselProductParagraph {
+    font-size: 24px;
+    font-weight: bold !important;
+    padding-top: 15px;
+}
+
+.carouselDescr {
+    font-size: 14px;
+
+}
+
+.carouselProductHeading{
+    border-radius: 25px;
+    background-color: rgba(0,0,0,0.30);
+}
+
+.carouselProductHeading h1 {
+    display: inline;
+    font-size: 52px !important;
+    font-weight: bold;
+}
+
+.carousel-item img{
+    width:70%;
+}
+
+.carouselText {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@media (min-width: 576px) {
+    
+    /* .carouselProductHeading h1 {
+        display: inline;
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+
+    .btn-buy-now{
+        padding:5px !important;
+        font-size: 14px !important;
+        min-width: 80px;
+    } */
+}
+
+.card-img-top {
+    width:100%;
+    height:auto;
+}
+
+/* #theCards {
+
+    background: repeat url(../images/card-section-bg.png) !important;
+    background-repeat: repeat;
+}  */
+
+.titleDiv{
+    background-color: #288dbe;
+    width: 100% !important;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+} 
+
+.buyBtn {
+    background-color: lightskyblue;
+    min-width:100px !important;
+}
+
+.buyBtn:hover {
+    background-color:#2c6f90 !important;
+    transition: ease 1s;
+}
+
+.detBtn {
+    background-color:#2c6f90 !important;
+    min-width:100px  !important;
+}
+
+.detBtn:hover{
+    background-color: lightskyblue  !important;
+    transition: ease 1s;
+}
+
+.prodCard {
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #F4f4F4 !important;
+    border-radius: 10px;
+}
+
+.prodCardAlt {
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #EAEAEA !important;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:990px){.box16{margin-bottom:30px}
+}
+.carosileBtnSpan {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+#productsDiv {
+    padding-top: 50px;
+}
+
+#cardRow {
+    padding-top: 40px;
+}
+
+.siteBlueTxt
+{
+    color:#2893c6 !important;
+}
+
+.whyMask {
+    background-color:#2c6f90 !important;
+}
+
+.cart-sect .btn-remove {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+
+.lead {
+    text-align: justify;
+    padding: 20px;
+}
+
+.textDiv {
+    background-color:#2c6f90 !important;
+}
+
+.stopDiv {
+    background-color: #87cefa !important;
+}
+
+.stopDiv img{
+    width: 100%;
+}
+
+.wareMask {
+    background-image: url(../images/virus.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.wareMaskRow{
+    background-color: rgba(0,0,0,0.50);
+}
+
+.theFooter {
+    background-color: #2c6f90;
+}
+
+.footer-copyright {
+    background-color: #2c6f90;
+    color: white;
+}
+
+.webName {
+    text-decoration: none;
+    color: white;
+}
+
+.webName:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.socialDiv a {
+    background-color: #3384ac;
+}
+
+.ic:hover {
+    background-color: lightskyblue  !important;
+    transition: ease 1s;
+}
+
+#mainFootSect {
+    background-color: #222;
+    color: white;
+}
+
+#mainFootSect a {
+    background-color: #222;
+    color: #87cefa !important;
+    text-decoration: none;
+}
+
+
+#mainFootSect a:hover {
+    font-style: italic;
+}
+
+.ic {
+    color: white !important;
+}
+
+.skype-ic {
+    color: #029cdc !important;
+}
+
+.skype-ic:hover {
+    background-color: lightskyblue  !important;
+    transition: ease 1s;
+}

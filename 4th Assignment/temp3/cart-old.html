@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethical Supply Alliance</title>
+    <!-- <link rel="shortcut icon" type="image/png" href="images/"> -->
+    <!-- The css and bootstrap css files are below -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet"> -->
+
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css-2/style-2.css">
+</head>
+
+<body>
+    <!-- The Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow mb-5">
+        <a class="navbar-brand ml-2" href="#">Ethical Supply Alliance</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria- "expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav ">
+            <ul class="navbar-nav ml-auto ">
+                <li class="nav-item active ">
+                    <a class="nav-link " href="# ">Home <span class="sr-only ">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="#__whyMask ">Why need a mask</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="#__howMask ">How to use</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="# ">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Add to cart -->
+    <section class="cart-sect ">
+
+        <form>
+        <div class="container mt-5 cart-sect lead ">
+            <table id="cart " class="table table-hover ">
+                <thead>
+                    <tr> 
+                        <th style="width:45% " class="prod-t-head ">Product</th>
+                        <th style="width:10% ">Price</th>
+                        <th style="width:15% ">Quantity</th>
+                        <th style="width:10% ">Subtotal</th>
+                        <th style="width:20% "></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="Product ">
+                            <div class="row ">
+                                <div class="col-sm-2 hidden-xs "><img src="images/sanda-masks-1.jpg " alt="... " class="img-responsive img-thumnail " width="100 "/></div>
+                                <div class="col-sm-10 ">
+                                    <h4 class="ml-4 ">Product 1</h4>
+                                </div>
+                            </div>
+                        </td>
+                        <td data-th="Price ">$1.99</td>
+                        <td data-th="Quantity ">
+                            <input class="form-control text-center " type="number " value="1 " min="1 " max="10 " step="1 "/>
+                        </td>
+                        <td data-th="Subtotal " class="text-center ">1.99</td>
+                        <td class="actions " data-th=" ">
+                            <button class="btn btn-info btn-sm cart-buttons "><i class="fa fa-refresh "></i></button>
+                            <button class="btn btn-danger btn-sm cart-buttons "><i class="fa fa-trash-o "></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td><a href="# " class="btn text-white btn-md continue-btn ">< Continue Shopping</a></td>
+                        <td colspan="2 " class="hidden-xs "><strong>Total:</strong></td>
+                        <td class="hidden-xs text-center "><strong>$1.99</strong></td>
+                        <td><button class="btn btn-md continue-btn ">Checkout ></button></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        </form>
+    </section>
+
+
+ 
+
+    <!-- The Bootstrap javascript and jquery links -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js "
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n "
+        crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js "
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 "
+        crossorigin="anonymous "></script>
+        <script src="js/bootstrap-input-spinner.js "></script>
+        <script>
+            $("input[type='number' ] ").inputSpinner();
+        </script>
+
+</body>
+
+</html>

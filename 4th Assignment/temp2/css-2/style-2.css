@@ -1,0 +1,144 @@
+body {
+    margin: 0 !important;
+    padding:0 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.buyBtn {
+    background: #222;
+    border:1px solid #000;
+    color:#EEE;
+}
+
+.buyBtn:hover {
+    background: #F4F4F4;
+    border:1px solid 000;
+    transition: ease 1s;
+    color:#000;
+}
+
+.prodHead {
+    font-size: 50px;
+}
+
+#section1
+{
+    margin-top:50px !important;
+}
+
+
+
+.nav-link:hover{
+    background-color: #172436 !important;
+    color:white !important;
+    transition: ease 0.6s;
+}
+
+/* 
+*/
+#navbarNav{
+    letter-spacing: 0em !important;
+}
+
+.videoFrame{
+    padding:10px;
+    background-color: #4a9baa !important;
+    border:1px solid lightgrey;
+}
+
+
+
+۔howHead {
+    border-bottom: 2px solid black !important;
+}
+
+footer{
+    background-color: #222222;
+    font-size: 0.8em !important;
+    letter-spacing: 0.1em;
+}
+
+.footMas {
+    text-decoration: none !important;
+    color:#4a9baa !important
+}
+
+.footMas:hover {
+    color: white !important;
+    transition: ease 1s !important;
+}
+
+.theIcons {
+    background-color: #4a9baa !important;
+    padding: 10px !important;
+    border-radius: 10%;
+}
+
+.theIcons:hover {
+    background-color: #222222 !important;
+    transition: ease 1s !important;
+    border: 1px solid white !important;
+}
+
+
+.boldedSpan {
+    font-weight: 500 !important;
+    letter-spacing: 4px;
+    font-size: 20px !important;
+}
+
+.prodPara {
+    font-size: 15px !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.dropdown-menu:hover {
+    transition: ease 1s;
+}
+
+
+@media only screen and (max-width: 420px) {
+    #section1
+    {
+        flex-direction: column;
+    }
+
+    .prodHead{
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .imgDiv{
+        margin-top: 0px !important;        
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .imgDivFirst{
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+
+    .whyMask{
+        text-align: left !important;
+        padding-left: 5px !important;
+        padding-right:5px !important;
+    }
+
+    .howMask
+    {
+        padding-left: 5px !important;
+        padding-right:5px !important;        
+    }
+} 

@@ -1,0 +1,238 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    /*background: #ECE9E6;  /* fallback for old browsers 
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, 
+    Opera 12+, Safari 7+*/
+}
+
+.btn-remove {
+    background-color: #b20f0a !important;
+    color: white !important;
+}
+
+.btn-remove:hover {
+    color: white !important;
+}
+
+.btn-refresh:hover {
+    color: white !important;
+}
+
+.btn-refresh {
+    background-color: black !important;
+    color: white !important;
+}
+.productSect {
+    margin-top: 50px !important;
+}
+
+.approval {
+    font-size: 30px;
+}
+
+.cart-img {
+    width: 100px;
+}
+
+.mainHead {
+    margin-top: 100px;
+}
+
+.prodCards {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+.prod-detail {
+    text-decoration: none !important;
+    color: white;
+}
+
+.prod-detail:hover {
+    text-decoration: none !important;
+    color: black;
+    transition: ease 1s;
+}
+
+.card {
+    width: 18rem;
+}
+
+p .quantity {
+    display: inline;
+}
+
+.productHeading {
+    font-size: 50px !important;
+}
+
+input[type="number"] {
+    width: 80px !important;
+}
+
+#__whyMask {
+    background-color: #d3d3d3;
+    background: url(../images/why-mask-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+.listedDescriptions {
+    font-size: 15px !important;
+}
+
+.price {
+    font-weight: bold !important;
+}
+
+.buyBtn {
+    background: #222;
+    border: 1px solid #000;
+    color: #EEE;
+}
+
+.buyBtn:hover {
+    background: #F4F4F4;
+    border: 1px solid 000;
+    transition: ease 1s;
+    color: #000;
+}
+
+.prodHead {
+    font-size: 50px;
+}
+
+#section1 {
+    margin-top: 50px !important;
+}
+
+.nav-link:hover {
+    background-color: #172436 !important;
+    color: white !important;
+    transition: ease 0.6s;
+}
+
+#navbarNav {
+    letter-spacing: 0em !important;
+}
+
+.videoFrame {
+    padding: 10px;
+    background-color: #4a9baa !important;
+    border: 1px solid lightgrey;
+}
+
+۔howHead {
+    border-bottom: 2px solid black !important;
+}
+
+footer {
+    background-color: #222222;
+    font-size: 0.8em !important;
+    letter-spacing: 0.1em;
+    color: white !important;
+}
+
+.footMas {
+    text-decoration: none !important;
+    color: #4a9baa !important
+}
+
+.footMas:hover {
+    color: white !important;
+    transition: ease 1s !important;
+}
+
+.theIcons {
+    background-color: #4a9baa !important;
+    padding: 10px !important;
+    border-radius: 10%;
+}
+
+.theIcons:hover {
+    background-color: #222222 !important;
+    transition: ease 1s !important;
+    border: 1px solid white !important;
+}
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+    vertical-align: middle;
+}
+
+.cart-para {
+    text-decoration: none;
+    color: black;
+    cursor: auto;
+}
+
+.continue-btn {
+    background-color: #343a40;
+    color: white;
+}
+
+.continue-btn:hover {
+    color: white;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn-refresh {
+        margin-top: 10px;
+        display: inline;
+    }
+    .btn-remove {
+        margin-top: 10px;
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #section1 {
+        flex-direction: column;
+    }
+    .prodHead {
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+    .imgDiv {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .imgDivFirst {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .whyMask {
+        text-align: left !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .howMask {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .float-divider {
+        float: none !important;
+    }
+}
